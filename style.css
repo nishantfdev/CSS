@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Public Sans", sans-serif;
+  background-color: #fff;
+}
+
+.card {
+  margin: 10% auto;
+  width: 550px;
+  border-radius: 16px;
+  line-height: 1.25;
+}
+.bsn-card {
+  /* margin: 20% auto; */
+  background-color: #1de592;
+  padding: 130px 50px;
+
+  color: black;
+}
+
+.title {
+  font-size: 2.5em;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.btn {
+  background-color: white;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 40px;
+  font-size: 1.2em;
+  font-weight: 600;
+  word-spacing: 1px;
+  margin-top: 20px;
+}
+
+.pro-card {
+  border: 1px solid rgb(201, 200, 200);
+  
+}
+.profile {
+  padding: 30px;
+  
+}
+.pro-title{
+    font-size: 2em;
+    /* font-weight: 700; */
+    margin-bottom: 20px;
+}
+.pro-desc{
+  color: gray;
+  font-size: 1.25em;
+}
+hr{
+  border: 1px solid rgb(214, 213, 213);
+  width: 100%;
+}
+.pro-img{
+  width: 33%;
+  /* height: 50px; */
+  object-fit: cover;
+  border-radius: 50%;
+  padding: 20px 30px;
+  margin: 10px 10px;
+
+}
+.pro-footer {
+  padding: 20px;
+  list-style: none;
+  color: blue;
+}
+.pro-footer a {
+    font-size: 1.2em;
+    color: blue;
+    text-decoration: none;
+  }
+
+.line {
+  height: 1px;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  background-color: gray;
+  width: 100%;
+}
+
+.sub-card{
+  border-radius: 16px;
+  border: 1px solid rgb(135, 135, 135);
+  }
+.sub-img{
+  width:550px;
+  height: 250px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  overflow: hidden;
+
+}
+.sub-img img{
+width: 100%;
+height: 100%;
+object-fit: cover scale-down;
+
+}
+
+.sub-box{
+  padding: 20px;
+}
+.sub-title{
+  text-transform: uppercase;
+}
+.sub-desc{
+  font-size: 2em;
+  font-weight: 400;
+}
+
+.sub-description{
+  color:rgb(151, 149, 149);
+  font-weight: 300;
+  margin: 10px 0px;
+  
+}
+
+.btn-sub{
+  padding: 15px 30px;
+  border: 1px solid rgb(200, 199, 199);
+  border-radius: 4px;
+  color: blue;
+  background-color: white;
+  font-size: 1em;
+  font-weight: 400;
+}
